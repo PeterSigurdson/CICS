@@ -1,0 +1,11 @@
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\bin\Debug\netcoreapp2.1\CICS.deps.json
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\bin\Debug\netcoreapp2.1\CICS.runtimeconfig.json
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\bin\Debug\netcoreapp2.1\CICS.runtimeconfig.dev.json
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\bin\Debug\netcoreapp2.1\CICS.dll
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\bin\Debug\netcoreapp2.1\CICS.pdb
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\obj\Debug\netcoreapp2.1\CICS.csprojAssemblyReference.cache
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\obj\Debug\netcoreapp2.1\CICS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\obj\Debug\netcoreapp2.1\CICS.AssemblyInfoInputs.cache
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\obj\Debug\netcoreapp2.1\CICS.AssemblyInfo.cs
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\obj\Debug\netcoreapp2.1\CICS.dll
+C:\Users\HP\Dropbox\Academic_Desk\2020.01.WINTER\CSharpDataStructures1\CICS\obj\Debug\netcoreapp2.1\CICS.pdb
