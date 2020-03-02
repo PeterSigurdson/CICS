@@ -17,7 +17,7 @@ namespace CICS
     {
         public void GetData()
         {
-            int counter = 0;
+            int counter = 1;
             string line;
 
             // Read the file and display it line by line.  
@@ -50,8 +50,7 @@ namespace CICS
             for (int i = 0; i < a.Length; i++)
             {
                 if (a[i] == ',')
-                { Console.WriteLine("Found a comma at position {0}", i); }
-
+                { Console.WriteLine("Found a comma at position {0}", i+1); }
             }
         }
     }
