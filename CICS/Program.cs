@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace CICS
 {
@@ -6,16 +8,20 @@ namespace CICS
     {
         static void Main(string[] args)
         {
-            // Step 1: Access the ajax.csv and print it out
+            // #TODO: Step 1: Access the ajax.csv and print it out
             InputTheDatafile file1 = new InputTheDatafile();
             file1.GetData();
-            // Step 2: implement the method ConvertLineIntoObject by doing string tokenization
+            // #TODO: Step 2: 1. Implement the method ConvertLineIntoObject by doing string tokenization
+            // 2. Put each data frame into the field of a Data Record Object
+            // 3. Insert the Object into the CICS ArrayList
+            // #TODO: Step 3: Write a Method that will walk over the array, access each Data Record Object, and implement the reporting functionality
+            // specified in the assignment (e.g. average selling price of all detached houses).
         }
     }
 
     class InputTheDatafile
     {
-        DataRecord[] CICS = new DataRecord[200];
+        ArrayList CICS = new ArrayList();
         public void GetData()
         {
             int counter = 1;
@@ -60,6 +66,9 @@ namespace CICS
             }
 
             dr.FULLADDRESS = addressLine;
+
+            // #TODO You must fully construct each data record object and insert it into the arraylist CICS
+            CICS.Add(dr);
         }
     }
 
