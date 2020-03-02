@@ -9,6 +9,7 @@ namespace CICS
             // Step 1: Access the ajax.csv and print it out
             InputTheDatafile file1 = new InputTheDatafile();
             file1.GetData();
+            // Step 2: implement the method ConvertLineIntoObject by doing string tokenization
         }
     }
 
@@ -37,62 +38,66 @@ namespace CICS
 
         public void ConvertLineIntoObject(String inputLine)
         {
-            Console.WriteLine(inputLine);
+            DataRecord dr = new DataRecord();
+            // take inputLine
+            // use substrings to breaks it apart around the commas
+            dr.FULLADDRESS = "";
+
         }
     }
 
     class DataRecord
     {
 
-        String FULLADDRESS;
+        public String FULLADDRESS;
 
-        String Type;
+        public String Type;
 
-String Description;
+        public String Description;
 
-String Community;
+        public String Community;
 
-        int DaysOnMarket;
+        public int DaysOnMarket;
 
-double Percentage;
+public double Percentage;
 
-double ListPrice;
+public double ListPrice;
 
-double SoldPrice;
+public double SoldPrice;
 
-String ExpiryDate;
+public String ExpiryDate;
 
-String StreetName;
+public String StreetName;
 
-String StNumber;
+public String StNumber;
 
-String Bedroom;
+public String Bedroom;
 
-String BedPlus;
+public String BedPlus;
 
-String Washroom;
+public String Washroom;
 
-String Garage;
+public String Garage;
 
-int ParkingDriveSpaces;
+public int ParkingDriveSpaces;
 
-string Pool;
+public string Pool;
 
-string ContractDate;
+public string ContractDate;
 
-string SoldDate;
+public string SoldDate;
 
-string RemarksForClients;
+public string RemarksForClients;
 
-string Extras;
+public string Extras;
 
-string Address;
+public string Address;
 
-string PostalCode;
+public string PostalCode;
 
-string Municipality;
+public string Municipality;
 
-string District;
+public string District;
 
     }
 }
