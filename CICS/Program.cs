@@ -68,6 +68,9 @@ namespace CICS
             dr.FULLADDRESS = addressLine;
 
             // #TODO You must fully construct each data record object and insert it into the arraylist CICS
+            // Example: 1. You CREATE the DR object 2. you assign all the data frames to it i.e. the text between start of sting 
+            // and the first command is the ADDRESS. You assign this to the Address field of the DR object
+            // once the DR object is fully populated, add it to the CICS ArrayList like this: 
             CICS.Add(dr);
         }
     }
