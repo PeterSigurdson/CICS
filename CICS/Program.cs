@@ -15,6 +15,7 @@ namespace CICS
 
     class InputTheDatafile
     {
+        DataRecord[] CICS = new DataRecord[200];
         public void GetData()
         {
             int counter = 1;
@@ -43,15 +44,22 @@ namespace CICS
             DataRecord dr = new DataRecord();
             // take inputLine
             // use substrings to breaks it apart around the commas
-            dr.FULLADDRESS = "";
+            String addressLine = "";
+            // Assignment #TODO
+            // Extract out the substrings between all the commas and assign them to the appropriate data record fields(DRFs) of the DataRecord object.
+            // Each time you construct a new DataRecord Object, insert it into the CICS Array.
 
-            // sample code to walk over a string
+            // code to walk over a string
+            // remember, a string is just an array
+            // find the Data Frames between the commas,
 
             for (int i = 0; i < a.Length; i++)
             {
                 if (a[i] == ',')
                 { Console.WriteLine("Found a comma at position {0}", i+1); }
             }
+
+            dr.FULLADDRESS = addressLine;
         }
     }
 
