@@ -27,6 +27,7 @@ namespace CICS
             {
                 ConvertLineIntoObject(line);
                 counter++;
+                Console.WriteLine("line number {0}", counter);
             }
 
             file.Close();
@@ -38,6 +39,7 @@ namespace CICS
 
         public void ConvertLineIntoObject(String inputLine)
         {
+            String a = inputLine;
             DataRecord dr = new DataRecord();
             // take inputLine
             // use substrings to breaks it apart around the commas
@@ -45,23 +47,12 @@ namespace CICS
 
             // sample code to walk over a string
 
-            string str;
-            int l = 0;
-
-            Console.Write("\n\nprint individual characters of string in reverse order :\n");
-            Console.Write("------------------------------------------------------\n");
-            Console.Write("Input the string : ");
-            str = "MY name is Peanut I am a Bichon";
-
-            l = str.Length - 1;
-            Console.Write("The characters of the string in reverse are : \n");
-            while (l >= 0)
+            for (int i = 0; i < a.Length; i++)
             {
-                Console.Write("{0} ", str[l]);
-                l--;
-            }
-            Console.Write("\n\n");
+                if (a[i] == ',')
+                { Console.WriteLine("Found a comma at position {0}", i); }
 
+            }
         }
     }
 
